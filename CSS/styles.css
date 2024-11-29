@@ -4,33 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sports Analytics Portfolio</title>
-    <!-- Link to your CSS file -->
+    <!-- Link to external CSS -->
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Sports Analytics Portfolio</h1>
+        <h1>Sports Analytics Portfolio</h1>
+        <p>Analyzing the WNBA Indiana Fever Team Performance</p>
     </header>
     <main>
         <section>
-            <h2>About the Project</h2>
-            <p>This project showcases the analytics for the WNBA Indiana Fever team.</p>
+            <h2>Project Overview</h2>
+            <p>This project showcases SQL scripts, data analysis, and visualizations for sports analytics.</p>
         </section>
-        <section>
-            <h2>Entity-Relationship Diagram</h2>
-            <img src="Images/ERD.png" alt="Entity-Relationship Diagram" style="max-width:100%;">
-        </section>
+        
         <section>
             <h2>SQL Scripts</h2>
             <ul>
-                <li><a href="SQL%20Scripts/project_sportsanalytics.sql" download>Create Database Script</a></li>
-                <li><a href="SQL%20Scripts/FINAL.sql" download>Final SQL Script</a></li>
-                <li><a href="SQL%20Scripts/again.sql" download>Additional Queries</a></li>
+                <li><a href="SQL Scripts/project_sportsanalytics.sql" download>Create Database</a></li>
+                <li><a href="SQL Scripts/FINAL.sql" download>Final SQL Queries</a></li>
+                <li><a href="SQL Scripts/again.sql" download>Additional Queries</a></li>
             </ul>
+        </section>
+        
+        <section>
+            <h2>Entity-Relationship Diagram (ERD)</h2>
+            <img src="Images/ERD.png" alt="ERD Diagram">
+        </section>
+        
+        <section>
+            <h2>Data Visualizations</h2>
+            <img src="Images/Data.png" alt="Data Visualization 1">
+            <img src="Images/Data2.png" alt="Data Visualization 2">
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 MFChambers</p>
+        <p>&copy; 2024 MFChambers. All rights reserved.</p>
     </footer>
 </body>
 </html>
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+/* Main Section */
+main {
+    margin: 20px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sections within Main */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+}
+
+/* Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
