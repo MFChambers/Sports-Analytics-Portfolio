@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Analytics Portfolio</title>
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Sports Analytics Portfolio</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About the Project</h2>
+            <p>This project showcases the analytics for the WNBA Indiana Fever team.</p>
+        </section>
+        <section>
+            <h2>Entity-Relationship Diagram</h2>
+            <img src="Images/ERD.png" alt="Entity-Relationship Diagram" style="max-width:100%;">
+        </section>
+        <section>
+            <h2>SQL Scripts</h2>
+            <ul>
+                <li><a href="SQL%20Scripts/project_sportsanalytics.sql" download>Create Database Script</a></li>
+                <li><a href="SQL%20Scripts/FINAL.sql" download>Final SQL Script</a></li>
+                <li><a href="SQL%20Scripts/again.sql" download>Additional Queries</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 MFChambers</p>
+    </footer>
+</body>
+</html>
